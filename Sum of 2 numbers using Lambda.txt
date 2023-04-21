@@ -1,0 +1,12 @@
+# Create a lambda function 
+add_func = lambda a,b: a + b 
+
+# Call the lambda function 
+sum = add_func(5, 6) 
+
+# Print the result 
+print(sum) 
+
+
+#output
+11
