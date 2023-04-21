@@ -1,0 +1,9 @@
+#n! (pronounced "n factorial") is a mathematical notation for the product of all positive integers less than or equal to n. For example, 5! = 5 x 4 x 3 x 2 x 1 = 120.program for n!
+
+n = int(input("Enter a number: "))	#4
+
+factorial = 1
+for i in range(1, n+1):
+    factorial *= i   		#factorial=factorial*i  1,6,
+
+print(factorial)
